@@ -210,13 +210,9 @@ python -m inference.generate \
 python -m inference.chat --checkpoint checkpoints/stage1/latest.pt
 ```
 
-## Project Memory
+## Pre-trained Weights
 
-The following files are part of the project state and should be updated after
-every meaningful change:
+Model weights and tokenizer configurations for **Nexara Nano 100M-Chat** are hosted on the Hugging Face Model Hub:
 
-- [ROADMAP.md](ROADMAP.md)
-- [PROGRESS.md](PROGRESS.md)
-- [DECISIONS.md](DECISIONS.md)
-- [EXPERIMENTS.md](EXPERIMENTS.md)
-- [HANDOFF.md](HANDOFF.md)
+🤗 **[Emperordzd/Nexara-Nano-100M-Chat](https://huggingface.co/Emperordzd/Nexara-Nano-100M-Chat)**
+
