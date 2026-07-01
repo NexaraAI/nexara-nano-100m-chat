@@ -371,9 +371,9 @@ tags:
 - custom-architecture
 ---
 
-# Nexara-100M-Chat
+# Nexara-Nano-100M-Chat
 
-Nexara-100M-Chat is a tiny Decoder-Only Transformer pretrained and supervised fine-tuned (SFT) from scratch. It is designed solely for experimental and educational purposes.
+Nexara-Nano-100M-Chat is a tiny Decoder-Only Transformer pretrained and supervised fine-tuned (SFT) from scratch. It is designed solely for experimental and educational purposes.
 
 > [!WARNING]
 > This model has only ~{sum(p.numel() for p in model_state.values() if p.ndim > 0):,} parameters and is trained on a small corpus. It is **not** guaranteed to perform well in production environments. Expect frequent hallucinations and limited factual knowledge.
@@ -392,8 +392,8 @@ Nexara-100M-Chat is a tiny Decoder-Only Transformer pretrained and supervised fi
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-tokenizer = AutoTokenizer.from_pretrained("your_username/Nexara-100M-Chat", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("your_username/Nexara-100M-Chat", trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained("your_username/Nexara-Nano-100M-Chat", trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained("your_username/Nexara-Nano-100M-Chat", trust_remote_code=True)
 
 # Format SFT prompt template
 prompt = "### System:\\nYou are Nexara, a helpful and polite AI assistant.\\n\\n### User:\\nWhat is your name?\\n\\n### Assistant:\\n"

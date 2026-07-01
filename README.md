@@ -1,9 +1,9 @@
 # Nexara
 
 <!-- badges:start -->
-[![CI](https://github.com/NexaraAI/nexara-100m-chat/actions/workflows/ci.yml/badge.svg)](https://github.com/NexaraAI/nexara-100m-chat/actions/workflows/ci.yml)
-[![Docs](https://github.com/NexaraAI/nexara-100m-chat/actions/workflows/docs.yml/badge.svg)](https://github.com/NexaraAI/nexara-100m-chat/actions/workflows/docs.yml)
-[![Nightly](https://github.com/NexaraAI/nexara-100m-chat/actions/workflows/nightly.yml/badge.svg)](https://github.com/NexaraAI/nexara-100m-chat/actions/workflows/nightly.yml)
+[![CI](https://github.com/NexaraAI/nexara-nano-100m-chat/actions/workflows/ci.yml/badge.svg)](https://github.com/NexaraAI/nexara-nano-100m-chat/actions/workflows/ci.yml)
+[![Docs](https://github.com/NexaraAI/nexara-nano-100m-chat/actions/workflows/docs.yml/badge.svg)](https://github.com/NexaraAI/nexara-nano-100m-chat/actions/workflows/docs.yml)
+[![Nightly](https://github.com/NexaraAI/nexara-nano-100m-chat/actions/workflows/nightly.yml/badge.svg)](https://github.com/NexaraAI/nexara-nano-100m-chat/actions/workflows/nightly.yml)
 <!-- badges:end -->
 
 Nexara is a small, experimental conversational language model project built from scratch using PyTorch and licensed under the MIT License. 
@@ -24,7 +24,7 @@ The codebase contains a fully functional training and fine-tuning pipeline:
 - SFT (Supervised Fine-Tuning) dataset balancing, templates, masking, and evaluation suite.
 - Chat CLI interface for interactive local testing.
 
-The primary experimental line is **Nexara Tiny 100M** (~97.5M parameters, 12 layers, 12 attention heads, 768 embedding dimension, and 512 context length). Pretraining and Stage 2 SFT have been completed successfully.
+The primary experimental line is **Nexara Nano 100M-Chat** (~97.5M parameters, 12 layers, 12 attention heads, 768 embedding dimension, and 512 context length). Pretraining and Stage 2 SFT have been completed successfully.
 
 
 ## Setup
