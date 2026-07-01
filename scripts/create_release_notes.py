@@ -26,7 +26,7 @@ def main() -> None:
                 "",
                 "- Configuration files from `configs/`",
                 "- Project documentation markdown files",
-                "- Current roadmap, progress, decisions, experiments, and handoff notes",
+                "- Project roadmap and progress logs",
                 "",
             ]
         ),
@@ -47,9 +47,6 @@ def package_inputs() -> list[Path]:
         Path("README.md"),
         Path("ROADMAP.md"),
         Path("PROGRESS.md"),
-        Path("DECISIONS.md"),
-        Path("EXPERIMENTS.md"),
-        Path("HANDOFF.md"),
         Path("pyproject.toml"),
         Path("requirements.txt"),
     ]
